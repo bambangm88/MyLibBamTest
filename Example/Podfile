@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyLibBamTest_Example' do
+  pod 'MyLibBamTest', :path => '../'
+
+  target 'MyLibBamTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

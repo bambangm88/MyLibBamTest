@@ -1,0 +1,22 @@
+{
+  "name": "MyLibBamTest",
+  "version": "0.1.0",
+  "summary": "A short description of MyLibBamTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bambangm88/MyLibBamTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bambangm88": "bambangm88@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bambangm88/MyLibBamTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyLibBamTest/Classes/**/*"
+}

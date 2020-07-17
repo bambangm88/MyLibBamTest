@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import MyLibBamTest
 
 class ViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +22,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tes(_ sender: UIButton) {
+
+        let vc = storyboard?.instantiateViewController(withIdentifier:"tesbam") as!Tesbam
+        self.navigationController?.pushViewController(vc,animated: true)
+             
+        
+    }
 }
 

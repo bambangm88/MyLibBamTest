@@ -1,0 +1,16 @@
+PODS:
+  - MyLibBamTest (0.1.0)
+
+DEPENDENCIES:
+  - MyLibBamTest (from `../`)
+
+EXTERNAL SOURCES:
+  MyLibBamTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyLibBamTest: da31ec960d1f414d2a5b58473916e1e4e56b4ac1
+
+PODFILE CHECKSUM: 9a15bedb1b2849f4a5761abd3d9ea01003a28c7d
+
+COCOAPODS: 1.9.3

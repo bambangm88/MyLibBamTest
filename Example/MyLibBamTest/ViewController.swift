@@ -24,9 +24,11 @@ class ViewController: UIViewController {
 
     @IBAction func tes(_ sender: UIButton) {
 
-        let vc = storyboard?.instantiateViewController(withIdentifier:"tesbam") as!Tesbam
+        let vc = storyboard?.instantiateViewController(withIdentifier:"tesbam") as!ListPayment
         self.navigationController?.pushViewController(vc,animated: true)
-             
+        
+        
+    
         
     }
 }

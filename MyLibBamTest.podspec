@@ -25,14 +25,20 @@ Pod::Spec.new do |s|
   s.author           = { 'bambangm88' => 'bambangm88@gmail.com' }
   s.source           = { :git => 'https://github.com/bambangm88/MyLibBamTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version = '4.0'
+  s.ios.deployment_target = '10.0'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'MyLibBamTest/Classes/**/*'
+  s.source_files = 'MyLibBamTest/Classes/**/*.{swift}'
   
 
-  s.resource = "MyLibBamTest/**/*.{png,bundle,xib,nib}"
+ # s.resource = "MyLibBamTest/Resources/*.{png,bundle,xib,nib}"
+#  s.resources = ["MyLibBamTest/Resources/TesBam.storyboard"]
+  
 
+  
+  s.resource_bundles = {
+     'MyLibBamTest' => ['MyLibBamTest/Classes/**/*.{storyboard,xib}']
+  }
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
